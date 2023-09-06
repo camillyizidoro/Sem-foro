@@ -1,0 +1,56 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container span{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.vermelho{
+    background-color: rgb(235, 30, 30);
+}
+
+.amarelo{
+    background-color: rgb(241, 238, 23);
+}
+.verde{
+    background-color: rgb(52, 228, 90);
+}
+
+div{
+    margin: 5px 0 ;
+    background-color: rgb(61, 58, 58);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container span+span {
+    margin: 10px 0;
+}
+
+
+
+.vermelho-ativo{
+    background-color: red;
+    box-shadow: 0 0 15px 3px red;
+}
+.amarelo-ativo{
+    background-color: #ffff00;
+    box-shadow: 0 0 15px 3px #ffff00;
+}
+.verde-ativo{
+    background-color: #76ff03;
+    box-shadow: 0 0 15px 3px #76ff03;
+}
